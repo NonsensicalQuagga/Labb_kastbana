@@ -11,6 +11,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{textcomp}
+\usepackage{hyperref}
 %Källor
 \addbibresource{mall.bib}
 \graphicspath{ {./images/} }
@@ -68,9 +69,9 @@
     \end{itemize}
 
     \subsection{Metod:}
-    Beräkna utgångshastigheten för kulkanonen enligt formeln
+    Beräkna utgångshastigheten för kulkanonen enligt formeln för stighöjd
     \begin{equation}
-        Y_{max} = \frac{V_0^2*sin^2(\alpha)}{2g}
+        Y_{max} = \frac{v_0^2*\sin^2(\alpha)}{2g}
     \end{equation}
     genom att kolla hut högt kulan far om utgångsvinkeln \alpha \text{ är 90} $^{\circ}$. \\
     Använd sedan det resultatet för att beräkna vart kulan hamnar om utgångsvinkeln \alpha \text{ är 60} $^{\circ}$.
@@ -78,8 +79,11 @@
     \paragraph{}
 
     \section{Resultat}
-
-
+    Kulan flyger 129 cm upp i luften
+    Om man skriver om formeln för stighöjd så att den ger resultatet
+    \begin{equation}
+       v_0 = \sqrt(\frac{2g*Y_{max}}{\sin^2(\alpha)})
+    \end{equation}
 
     \section{Analys}
 
